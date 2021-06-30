@@ -1,0 +1,179 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #e2e2e2;
+    font-family: 'Oxygen', sans-serif;
+}
+header{
+    width: 100%;
+    height: 55px;
+    color: white;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    font-size: 18px;
+    text-align: right;
+    padding: 15px 10%;
+}
+header h4{
+    float: left;
+    letter-spacing: 2px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+}
+header h4 span {
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+header a{
+    text-decoration: none;
+    color: white;
+}
+nav{
+    width: auto;
+}
+nav a{
+    margin-right: 15px;
+    text-emphasis: none;
+    font-style: normal;
+}
+.container{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    align-items: center;
+    justify-content: center;
+}
+.facebox{
+    position: relative;
+    margin: 20% 40%;
+}
+.content{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    display: flex;
+}
+.content a{
+    text-decoration: none;
+    color: black;
+}
+.categories{
+    overflow: hidden;
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 7% 15%;
+}
+.cat{
+    width: 100%;
+}
+.cat-1{
+    left: 15%;
+    position: absolute;
+    top: 40%;
+    width: fit-content;
+}
+.cat-2{
+    left: 43%;
+    position: absolute;
+    width: fit-content;
+    top: 15%;
+}
+.cat-3{
+    left: 65%;
+    position: absolute;
+    top: 40%;
+    width: fit-content;
+}
+.content h3:hover{
+    text-decoration: underline;
+    text-shadow: #272727;
+}
+.content h3{
+    font-size: 25px;
+    margin: 20px;
+    text-transform: uppercase;
+}
+#allprojects{
+    background-color: rgba(44, 44, 44, 0.808);
+    padding: 15px 20px;
+    position: absolute;
+    bottom: 13%;
+    right: 3%;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+}
+.face{
+    position: relative;
+    /* width: 300px;
+    height: 300px;
+    top: 40%;
+    left: 40%; */
+    /*border-radius: 50%;
+    background-color: #ffcd00;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.face::before{
+    content: '';
+    position: absolute;
+    /*top: 180px;
+    width: 150px;
+    height: 70px;
+    background-color: #b57700;
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 70px;
+    transition: 0.5s;*/
+}
+/* 
+.face:hover::before{
+   top: 210px;
+    width: 150px;
+    height: 30px;
+    background-color: #b57700;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    transition: 0.5s;
+}*/
+.eyes{
+    position: relative;
+    top: -40px;
+    display: flex;
+}
+.eyes .eye{
+    position: relative;
+    width: 80px;
+    height: 80px;
+    display: block;
+    background-color: white;
+    margin: 0 15px;
+    border-radius: 50%;
+
+}
+.eyes .eye::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 25px;
+    transform: translate(-50%,-50%);
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+footer{
+    position: absolute;
+}

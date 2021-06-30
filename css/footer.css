@@ -1,0 +1,62 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #e2e2e2;
+    font-family: 'Oxygen', sans-serif;
+}
+footer{
+    width: 100%;
+    height: 10%;
+    line-height: 75px;
+    background-color: black;
+    color: white;
+    padding: 0 10%;
+    text-align: right;
+    bottom: 0;
+}
+footer span{
+    float: left;
+}
+.socialicon a{
+    background:#a1a1a1;
+	text-decoration: none;
+	color: #FFF;
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	border-radius: 5px;
+	margin-right: 15px;
+	font-size: 15px;
+	overflow: hidden;
+	position: relative;
+	line-height: 30px;
+    text-align: center;
+    transition: transform 0.4s linear 0s, 
+	 border-top-left-radius 0.1s linear 0s, 
+	 border-top-right-radius 0.1s linear 0.1s, 
+	 border-bottom-right-radius 0.1s linear 0.2s, 
+	 border-bottom-left-radius 0.1s linear 0.3s;
+}
+.socialicon .github:hover{
+    background-color: #272727;
+    transform: rotate(360deg);
+    border-radius: 50%;
+}
+.socialicon .facebook:hover {
+    background-color: #3b5998;
+    transform: rotate(360deg);
+    border-radius: 50%;	 
+}
+.socialicon .twitter:hover {
+    background-color: #00aced;
+    transform: rotate(360deg);
+    border-radius: 50%;	 
+}
+.socialicon .instagram:hover {
+    background-color: #bc2a8d;
+    transform: rotate(360deg);
+    border-radius: 50%;	 
+}

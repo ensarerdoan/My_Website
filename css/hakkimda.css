@@ -1,0 +1,122 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #e2e2e2;
+    font-family: 'Oxygen', sans-serif;
+}
+header{
+    width: 100%;
+    height: 55px;
+    color: white;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    font-size: 18px;
+    text-align: right;
+    padding: 15px 10%;
+}
+header h4{
+    float: left;
+    letter-spacing: 2px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+}
+header h4 span {
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+nav{
+    width: auto;
+}
+nav a{
+    margin-right: 15px;
+    text-emphasis: none;
+    font-style: normal;
+}
+.container{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    min-height: 100vh;
+}
+section{
+    width: 100%;
+    height: auto;
+    background-color: rgb(241, 241, 241);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);
+    margin-bottom: 10px;
+    overflow: auto;
+}
+#headerimage{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(241, 241, 241);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 0 2px 8px 2px rgba(20, 23, 28, .15);
+    margin-top: 15px;
+    overflow: hidden;
+}
+#headerimage img{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.container nav{
+    width: 20%;
+    float: left;
+    margin-top: 10px;
+    height: auto;
+}
+.container nav ul{
+    width: auto;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.container nav li{
+    list-style-type: none;
+}
+.container nav li a{
+    height: 50px;
+    line-height: 50px;
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid #b4b4b4;
+    padding-left: 20px;
+    display: block;
+}
+.container nav li a.active{
+    color: white;
+    background-color: #919191;
+}
+.container nav li a.active i{
+    opacity: 1;
+}
+.container nav li a i{
+    opacity: 0;
+	float:right;
+	margin:15px;
+}
+.container nav li a:hover{
+    color: white;
+    background-color: #adadad;
+}
+main{
+    float: left;
+    height: auto;
+    width: 80%;
+    padding: 10px;
+}
